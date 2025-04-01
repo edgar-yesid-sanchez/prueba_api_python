@@ -1,9 +1,15 @@
 # Api CRUD eventos
+Impletacion de unaAPi con funcinalidades de CRUD y consulta para filtar eventos
+# imPlentaciones
 
+Back-end => pyton - FastAPI
+DB =>  Mongodb
+DM => ODMantic
 
+Front-end => Reactjs - creado con vite y JavaScript
+Node => 20.0.0
 
 ##  Cómo ejecutar el proyecto
-
 
 
 ### 1 Ejecutar el backend (FastAPI)
@@ -16,9 +22,9 @@ cd backend
 cp .env.example .env
 
 python -m venv env
-source env/bin/activate
+.\env\Scripts\Activate.ps1
 pip install -r requirements.txt
-uvicorn main:app --host 0.0.0.0 --port 5000 --reload
+uvicorn app.main:app --port 5000 --reload
 ```
 ### 2 Ejecutar front (FastAPI)
 Abre una segunda terminal en la raiz y ejecuta:
