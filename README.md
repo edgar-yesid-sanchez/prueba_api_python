@@ -33,5 +33,13 @@ Abre una segunda terminal en la raiz y ejecuta:
 cd frontend
 npm install  # Solo la primera vez
 npm run dev
-
 ```
+la api se podra consumir desde la pagina delplegada, 
+
+Filtro de eventos (desde el selector de la interfaz)
+En la parte superior derecha de la interfaz encontrarás un selector que te permite aplicar filtros a la lista de eventos:
+
+- **Todos** → Muestra todos los eventos registrados, sin importar su estado ni gestion.
+- **Requiere gestión** → Muestra solo los eventos cuyo estado es **"Revisado"** y cuya gestión es **"Requiere gestion"**.
+- **Sin gestión** → Muestra solo los eventos cuyo estado es **"Revisado"** y cuya gestión es **"Sin gestion"**.
+
