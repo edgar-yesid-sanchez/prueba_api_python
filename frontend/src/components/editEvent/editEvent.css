@@ -1,0 +1,50 @@
+.form-section{
+  background-color: #2f2f2f;
+  padding: 24px;
+  border-radius: 12px;
+  box-sizing: content-box;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  background-color: #3a3a3a;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid #4b5563; /* Equivalente a border-gray-600 */
+  outline: none;
+}
+
+.custom-class:focus {
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button {
+  background-color: #22c55e; /* Equivalente a bg-green-500 */
+  color: white;
+  padding: 8px 16px; /* px-4 (16px) y py-2 (8px) */
+  border-radius: 12px; /* rounded-xl */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #16a34a; /* Equivalente a hover:bg-green-600 */
+}
+
+.errorAlert{
+  background-color: #c54322; /* Equivalente a bg-green-500 */
+  color: white;
+  padding: 8px 16px; /* px-4 (16px) y py-2 (8px) */
+  border-radius: 12px; /* rounded-xl */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
